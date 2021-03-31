@@ -1,0 +1,75 @@
+---
+title: "Noon Case Conference"
+subtitle: ""
+session: ""
+author: "Howard Mann, M.D."
+institute: "University of Utah | Department of Radiology and Imaging Sciences"
+date: "February 22nd, 2021"
+output:
+  xaringan::moon_reader:
+    css: 
+        - myextra.css
+        - xaringan-themer.css
+        - hygge
+    yolo: false
+    lib_dir: libs
+    self_contained: false
+    nature:
+      titleSlideClass: [center, middle]
+      slideNumberFormat: |
+        <div class="progress-bar-container">
+          <div class="progress-bar" style="width: calc(%current% / %total% * 100%);">
+          </div>
+        </div>
+      ratio: "16:9"
+      beforeInit: "macros.js"
+      highlightStyle: github
+      highlightLines: true
+      countIncrementalSlides: false
+      navigation:
+        scroll: false
+---
+
+
+```{r setup, include = FALSE}
+options(htmltools.dir.version = FALSE)
+library(knitr)
+library(xaringanExtra)
+library(showtext)
+library(kableExtra)
+opts_chunk$set(echo=FALSE)
+
+# set engines
+knitr::knit_engines$set("markdown")
+
+xaringanExtra::use_panelset()
+# xaringanExtra::use_share_again()
+xaringanExtra::use_tile_view()
+
+```
+
+```{r xaringan-themer, include=FALSE, warning=FALSE}
+library(xaringanthemer) 
+style_mono_light(base_color = "#23395b")
+```
+
+class: center, middle
+# The first slide of the deck.
+
+.bigger[What's this about ?]
+
+
+
+
+
+```{css echo=FALSE}
+.highlight-last-item > ul > li, 
+.highlight-last-item > ol > li {
+  opacity: 0.2;
+}
+.highlight-last-item > ul > li:last-of-type,
+.highlight-last-item > ol > li:last-of-type {
+  opacity: 1;
+}
+```
+
