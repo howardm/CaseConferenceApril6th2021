@@ -309,7 +309,7 @@ knitr::include_graphics("images/phPALAT.jpg")
 
 
 ```{r out.width='50%'}
-knitr::include_graphics("images/Qscan.jpg")
+knitr::include_graphics("images/qscan.jpg")
 ```
 
 
