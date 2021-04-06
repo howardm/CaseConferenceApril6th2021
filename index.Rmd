@@ -62,16 +62,18 @@ class: center, middle
 class: inverse
 name: case panelset
 
-.small[Case 1]
+Case 1
 
 .panelset[
 
 .panel[.panel-name[Clinical Presentation]
 .left[
-Presentation: Blunt Chest Trauma]
+Blunt Chest Trauma]
 ] <!--end of panel-->
 
 .panel[.panel-name[Chest Radiography]
+
+</br>
 
 ```{r out.width='100%'}
 knitr::include_graphics("images/01.jpg")
@@ -88,9 +90,26 @@ knitr::include_graphics("images/01.jpg")
 <iframe class="pacsbin"
          id="case1"
          src="https://www.pacsbin.com/c/W1lFIP0OC8?s=60674905b224852f2731b1b9&i=60674905b224852f2731b1ba&ww=620&wc=58&an=false&header=false&notes=false&overlay=false" 
-         style="width: 450px; height: 450px; border: 0;"></iframe>
+         style="width: 475px; height: 475px; border: 0;"></iframe>
 </div>
 
+
+] <!--end of panel-->
+
+.panel[.panel-name[Explanation]
+.pull-left[*Extrapleural fat sign* -- hyperattenuating extrapleural hematoma
+
+![:scale 92%](images/extrapleural_fat_sign.jpg)]
+
+.pull-right[Surgery  
+</br>
+
+```{r out.height='100%'}
+knitr::include_graphics("images/surgery.jpg")
+```
+
+
+]
 
 ] <!--end of panel-->
 ] <!--end of panelset-->
@@ -106,7 +125,7 @@ Case 2
 
 .panel[.panel-name[Clinical Presentation]
 .left[
-Presentation: Blunt Abdomino-pelvic trauma]
+Presentation: Blunt Abdominopelvic trauma]
 ] <!--end of panel-->
 
 .panel[.panel-name[Chest Radiography]
@@ -128,9 +147,17 @@ knitr::include_graphics("images/APChest.jpg")
 <iframe class="pacsbin"
          id="case2"
          src="https://www.pacsbin.com/c/ZJ7M9wJYC8?s=606762bab224852f2731b5b6&i=606762bab224852f2731b5b7&ww=400&wc=40&an=false&header=false&notes=false&overlay=false" 
-         style="width: 500px; height: 500px; border: 0;"></iframe>
+         style="width: 475px; height: 475px; border: 0;"></iframe>
 </div>
 
+
+] <!--end of panel-->
+
+.panel[.panel-name[Explanation]
+
+Congenital interruption of the IVC -- absence of infra-renal IVC 
+
+![:scale 50%](images/end_of_ivc.jpg)
 
 ] <!--end of panel-->
 ] <!--end of panelset-->
@@ -159,6 +186,14 @@ knitr::include_graphics("images/APPICC.jpg")
 ```
 ] <!--end of panel-->
 
+.panel[.panel-name[Additional imaging]
+.pull-left[.big[Diagnosis: Infectious diskitis]]
+
+.pull-right[
+
+![:scale 65%](images/spine_mri.jpg)]
+
+] <!--end of panel-->
 ] <!--end of panelset-->
 
 ---
@@ -191,17 +226,34 @@ knitr::include_graphics("images/PostOpPALat.jpg")
 
 .panel[.panel-name[Computed Tomography]
 
-.small[What is your diagnosis?]
+.left-column[What's your diagnosis?]
+
+.right-column[
 
 <div style="text-align:center;">
 <iframe class="pacsbin"
          id="case4"
          src="https://www.pacsbin.com/c/Wk-tNHgFRU?s=6067782d25ee0c3888a7aa99&i=6067782d25ee0c3888a7aab3&ww=400&wc=40&an=false&header=false&notes=false&overlay=false" 
-         style="width: 450px; height: 450px; border: 0;"></iframe>
+         style="width: 500px; height: 500px; border: 0;"></iframe>
 </div>
+
+]
+
+] <!--end of panel-->
+
+.panel[.panel-name[Explanation]
+
+Iatrogenic diaphragm hernia
+
+.grey[Keypoint: it's much easier to see the diaphragmatic defect on coronal and sagittal MPRs]
+
+.pull-left[![](images/cor_ct.jpg)]
+.pull-right[![:scale 66%](images/sag_ct.jpg)]
+
 
 
 ] <!--end of panel-->
+
 ] <!--end of panelset-->
 
 ---
@@ -245,6 +297,25 @@ What's the diagnosis ?]
 
 
 ] <!--end of panel-->
+
+.panel[.panel-name[Explanation]
+
+.pull-left[Diagnosis: *Yolk sac tumor*
+
+Radiography: The *hilum overlay* sign.
+
+Seminomas: usually homogeneous in attenuation
+
+Non-seminomas: usually very heterogeneous in attentuation]
+
+.pull-right[
+
+```{r out.width='70%', fig.align='center'}
+knitr::include_graphics("images/non-seminoma.jpg")
+```
+]
+
+] <!--end of panel-->
 ] <!--end of panelset-->
 
 ---
@@ -275,6 +346,17 @@ knitr::include_graphics("images/pneumocon.jpg")
 
 ] <!--end of panel-->
 
+.panel[.panel-name[Explanation]
+
+Diagnsis: *Complicated inorganic dust pneumoconiosis*
+
+
+```{r out.width='55%', fig.align='center'}
+knitr::include_graphics("images/complicated_cwp.jpg")
+```
+
+
+] <!--end of panel-->
 
 ] <!--end of panelset-->
 
@@ -339,7 +421,40 @@ knitr::include_graphics("images/qscan.jpg")
 What's your provisional diagnosis ?
 
 ] <!--end of panel-->
+
+.panel[.panel-name[Explanation]
+
+*Idiopathic Pulmonary Hypertension - Group I*
+
+.pull-left[Keypoints - *pulmonary arterial hypertension*
+
+CXR
+* dilated pulmonary arteries
+* no dilated pulmonary veins
+* normal Q scan excludes CTEPH
+
+CT
+* mosaic attenuation pattern with foci of *lobular* ground glass opacity 
+* tortuous peripheral vessels -- *neovascularity*  (Sheehan vessels)
+]
+
+.pull-right[
+![:scale 120%](images/pulmonary_hypertension.jpg)]
+
+
+] <!--end of panel-->
 ] <!--end of panelset-->
+
+---
+class: inverse, center, middle
+
+
+![](images/sheehan.jpg)
+---
+class: inverse, center, middle
+
+![](images/neovascularity.jpg)
+
 
 ---
 
@@ -373,11 +488,20 @@ knitr::include_graphics("images/morgag.jpg")
 <iframe class="pacsbin"
          id="casexxy"
          src="https://www.pacsbin.com/c/byzshXVKRL?s=6067dd3a1b4e713d763c42ff&i=6067dd3a1b4e713d763c4300&ww=663&wc=66&an=false&header=false&notes=false&overlay=false" 
-         style="width: 450px; height: 450px; border: 0;"></iframe>
+         style="width: 500px; height: 500px; border: 0;"></iframe>
 </div>
 
 
 ] <!--end of panel-->
+
+.panel[.panel-name[Explanation]
+
+Diagnosis: Foramen of Morgagni hernia.
+
+.grey[Keypoint: As with all diaphragm disorders, the coronal and sagittal MPRs are very helpful in seeing the defect.]
+
+] <!--end of panel-->
+
 ] <!--end of panelset-->
 
 ---
@@ -407,7 +531,7 @@ knitr::include_graphics("images/phpa2lat2.jpg")
 
 .panel[.panel-name[Q scan]
 
-
+</br>
 ```{r out.width='85%'}
 knitr::include_graphics("images/perfusionscan.jpg")
 ```
@@ -429,6 +553,22 @@ Hmm. The second case of pulmonary hypertension. This is more difficult. Good luc
 
 
 ] <!--end of panel-->
+
+.panel[.panel-name[Explanation]
+
+.pull-left[
+
+![:scale 55%](images/pvodpch.jpg)]
+
+.pull-right[Very likely diagnosis: *Pulmonary Capillary Hemangiomatosis and Pulmonary Veno-Occlusive Disease*
+
+![:scale 120%](images/pulmonary_hypertension2.jpg)
+
+]
+
+
+] <!--end of panel-->
+
 ] <!--end of panelset-->
 
 ---
@@ -462,6 +602,21 @@ Another tough (perceptual) case. Evaluate the vessels carefully. Are emboli pres
 
 
 ] <!--end of panel-->
+
+.panel[.panel-name[Explanation]
+
+.gray[.big[Diagnosis: Mycotic aneurysm
+
+Keypoints when evaluating pulmonary vessels on CTPA in a patient with pulmonary septic embolism
+
+* vascular filling defects may be embolized vegetations, not bland emboli
+* look for focal saccular dilatations that represent mycotic aneurysms;they may be multiple.
+
+And 
+
+* look for tricuspid valve vegetations]]
+
+] <!--end of panel-->
 ] <!--end of panelset-->
 
 ---
@@ -475,7 +630,7 @@ Case 11
 
 .panel[.panel-name[Clinical Presentation]
 .left[
-A patient provides a history of recurrent lung infections over many years.]
+A patient provides a history of recurrent lung infections over many years.] 
 
 ] <!--end of panel-->
 
@@ -492,6 +647,7 @@ knitr::include_graphics("images/cpam.jpg")
 .panel[.panel-name[Chest CT]
 
 4 weeks later. 
+</br>
 
 
 ```{r out.width='100%'}
@@ -510,6 +666,14 @@ Another infection two years later!
 knitr::include_graphics("images/CT2yearslater.jpg")
 ```
 
+
+] <!--end of panel-->
+
+.panel[.panel-name[Explanation]
+
+Diagnosis: *Congenital Pulmonary Airway Malformation* (no systemtic arterial supply is present)
+
+![:scale 70%](images/cpam_lobectomy.jpg)
 
 ] <!--end of panel-->
 ] <!--end of panelset-->
@@ -556,6 +720,13 @@ Can you explain the peripheral opacity?
 
 ] <!--end of panel-->
 
+.panel[.panel-name[Explanation]
+
+Diagnosis: Peripheral hemorrhage-(?) infarction from vascular occlusion
+
+![:scale 45%](images/vascular_occlusion.jpg)
+
+] <!--end of panel-->
 ] <!--end of panelset-->
 
 
@@ -578,7 +749,7 @@ An EKG in this breathless patient shows third-degree heart block.
 .panel[.panel-name[Chest Radiography]
 
 
-```{r out.width='55%'}
+```{r out.width='50%'}
 knitr::include_graphics("images/HeartBlock.jpg")
 ```
 
@@ -602,6 +773,12 @@ What's the explanation for his symptoms ?
 
 ] <!--end of panel-->
 
+.panel[.panel-name[Explanation]
+
+.big[Diagnosis:  *Hydrostatic lung edema*]
+
+
+] <!--end of panel-->
 ] <!--end of panelset-->
 
 ---
@@ -615,7 +792,7 @@ Case 14 —  Last quick one!
 
 .panel[.panel-name[Clinical Presentation]
 .left[
-The asymptomatic person was sent over from this dentist's office (at least, that's what I got from Epic).
+The asymptomatic person was sent over from his dentist's office (at least, that's what I got from Epic).
 ]
 
 ] <!--end of panel-->
@@ -628,7 +805,14 @@ knitr::include_graphics("images/dentistcase.jpg")
 ```
 
 ] <!--end of panel-->
+
+.panel[.panel-name[Explanation]
+
+
+![:scale 60%](images/abutment.jpg)
+] <!--end of panel-->
 ] <!--end of panelset-->
+
 
 
 
