@@ -11,6 +11,7 @@ output:
         - myextra.css
         - xaringan-themer.css
         - hygge
+        - width.css
     yolo: false
     lib_dir: libs
     self_contained: false
