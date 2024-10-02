@@ -167,7 +167,7 @@ knitr::include_graphics("images/APPICC.jpg")
 ] <!--end of panel-->
 
 .panel[.panel-name[Additional imaging]
-.pull-left[.big[Diagnosis: Infectious diskitis]]
+.pull-left[.big[What is the diagnosis ?]]
 
 .pull-right[
 
