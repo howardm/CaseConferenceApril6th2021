@@ -4,7 +4,7 @@ subtitle: ""
 session: ""
 author: "Howard Mann, M.D."
 institute: "University of Utah | Department of Radiology and Imaging Sciences"
-date: "April 6th, 2021"
+date: "October 8th,2024"
 output:
   xaringan::moon_reader:
     css: 
@@ -97,22 +97,7 @@ knitr::include_graphics("images/01.jpg")
 
 ] <!--end of panel-->
 
-.panel[.panel-name[Explanation]
-.pull-left[*Extrapleural fat sign* -- hyperattenuating extrapleural hematoma
 
-![:scale 92%](images/extrapleural_fat_sign.jpg)]
-
-.pull-right[Surgery  
-</br>
-
-```{r out.height='100%'}
-knitr::include_graphics("images/surgery.jpg")
-```
-
-
-]
-
-] <!--end of panel-->
 ] <!--end of panelset-->
 
 ---
@@ -154,13 +139,7 @@ knitr::include_graphics("images/APChest.jpg")
 
 ] <!--end of panel-->
 
-.panel[.panel-name[Explanation]
 
-Congenital interruption of the IVC -- absence of infra-renal IVC 
-
-![:scale 50%](images/end_of_ivc.jpg)
-
-] <!--end of panel-->
 ] <!--end of panelset-->
 
 ---
@@ -242,18 +221,7 @@ knitr::include_graphics("images/PostOpPALat.jpg")
 
 ] <!--end of panel-->
 
-.panel[.panel-name[Explanation]
 
-Iatrogenic diaphragm hernia
-
-.grey[Keypoint: it's much easier to see the diaphragmatic defect on coronal and sagittal MPRs]
-
-.pull-left[![](images/cor_ct.jpg)]
-.pull-right[![:scale 66%](images/sag_ct.jpg)]
-
-
-
-] <!--end of panel-->
 
 ] <!--end of panelset-->
 
@@ -299,24 +267,7 @@ What's the diagnosis ?]
 
 ] <!--end of panel-->
 
-.panel[.panel-name[Explanation]
 
-.pull-left[Diagnosis: *Yolk sac tumor*
-
-Radiography: The *hilum overlay* sign.
-
-Seminomas: usually homogeneous in attenuation
-
-Non-seminomas: usually very heterogeneous in attentuation]
-
-.pull-right[
-
-```{r out.width='70%', fig.align='center'}
-knitr::include_graphics("images/non-seminoma.jpg")
-```
-]
-
-] <!--end of panel-->
 ] <!--end of panelset-->
 
 ---
@@ -347,17 +298,7 @@ knitr::include_graphics("images/pneumocon.jpg")
 
 ] <!--end of panel-->
 
-.panel[.panel-name[Explanation]
 
-Diagnsis: *Complicated inorganic dust pneumoconiosis*
-
-
-```{r out.width='55%', fig.align='center'}
-knitr::include_graphics("images/complicated_cwp.jpg")
-```
-
-
-] <!--end of panel-->
 
 ] <!--end of panelset-->
 
@@ -423,41 +364,11 @@ What's your provisional diagnosis ?
 
 ] <!--end of panel-->
 
-.panel[.panel-name[Explanation]
 
-*Idiopathic Pulmonary Hypertension - Group I*
-
-.pull-left[Keypoints - *pulmonary arterial hypertension*
-
-CXR
-* dilated pulmonary arteries
-* no dilated pulmonary veins
-* normal Q scan excludes CTEPH
-
-CT
-* mosaic attenuation pattern with foci of *lobular* ground glass opacity 
-* tortuous peripheral vessels -- *neovascularity*  (Sheehan vessels)
-]
-
-.pull-right[
-![:scale 120%](images/pulmonary_hypertension.jpg)]
-
-
-] <!--end of panel-->
 ] <!--end of panelset-->
 
 ---
-class: inverse, center, middle
 
-
-![](images/sheehan.jpg)
----
-class: inverse, center, middle
-
-![](images/neovascularity.jpg)
-
-
----
 
 class: inverse
 name: case panelset
@@ -495,13 +406,7 @@ knitr::include_graphics("images/morgag.jpg")
 
 ] <!--end of panel-->
 
-.panel[.panel-name[Explanation]
 
-Diagnosis: Foramen of Morgagni hernia.
-
-.grey[Keypoint: As with all diaphragm disorders, the coronal and sagittal MPRs are very helpful in seeing the defect.]
-
-] <!--end of panel-->
 
 ] <!--end of panelset-->
 
@@ -555,20 +460,7 @@ Hmm. The second case of pulmonary hypertension. This is more difficult. Good luc
 
 ] <!--end of panel-->
 
-.panel[.panel-name[Explanation]
 
-.pull-left[
-
-![:scale 55%](images/pvodpch.jpg)]
-
-.pull-right[Very likely diagnosis: *Pulmonary Capillary Hemangiomatosis and Pulmonary Veno-Occlusive Disease*
-
-![:scale 120%](images/pulmonary_hypertension2.jpg)
-
-]
-
-
-] <!--end of panel-->
 
 ] <!--end of panelset-->
 
@@ -604,20 +496,7 @@ Another tough (perceptual) case. Evaluate the vessels carefully. Are emboli pres
 
 ] <!--end of panel-->
 
-.panel[.panel-name[Explanation]
 
-.gray[.big[Diagnosis: Mycotic aneurysm
-
-Keypoints when evaluating pulmonary vessels on CTPA in a patient with pulmonary septic embolism
-
-* vascular filling defects may be embolized vegetations, not bland emboli
-* look for focal saccular dilatations that represent mycotic aneurysms;they may be multiple.
-
-And 
-
-* look for tricuspid valve vegetations]]
-
-] <!--end of panel-->
 ] <!--end of panelset-->
 
 ---
@@ -670,13 +549,7 @@ knitr::include_graphics("images/CT2yearslater.jpg")
 
 ] <!--end of panel-->
 
-.panel[.panel-name[Explanation]
 
-Diagnosis: *Congenital Pulmonary Airway Malformation* (no systemtic arterial supply is present)
-
-![:scale 70%](images/cpam_lobectomy.jpg)
-
-] <!--end of panel-->
 ] <!--end of panelset-->
 
 ---
@@ -721,13 +594,7 @@ Can you explain the peripheral opacity?
 
 ] <!--end of panel-->
 
-.panel[.panel-name[Explanation]
 
-Diagnosis: Peripheral hemorrhage-(?) infarction from vascular occlusion
-
-![:scale 45%](images/vascular_occlusion.jpg)
-
-] <!--end of panel-->
 ] <!--end of panelset-->
 
 
@@ -774,12 +641,7 @@ What's the explanation for his symptoms ?
 
 ] <!--end of panel-->
 
-.panel[.panel-name[Explanation]
 
-.big[Diagnosis:  *Hydrostatic lung edema*]
-
-
-] <!--end of panel-->
 ] <!--end of panelset-->
 
 ---
@@ -807,11 +669,7 @@ knitr::include_graphics("images/dentistcase.jpg")
 
 ] <!--end of panel-->
 
-.panel[.panel-name[Explanation]
 
-
-![:scale 60%](images/abutment.jpg)
-] <!--end of panel-->
 ] <!--end of panelset-->
 
 
